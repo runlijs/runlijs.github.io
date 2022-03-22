@@ -3,6 +3,8 @@
   - [批量删除本地分支](/github/delete-brand)
   - [拉取远程分支到本地](/github/pull-brand)
   - [tag命令的简单用法](/github/tag)
+  - [git clone时SSL_ERROR_SYSCALL](/github/git-clone-ssl-error-syscall)
+  - [Git 443 Operation timed out](/github/git-443-operation-timed-out)
 - **leetcode**
   - [2.两数相加](/leetcode/2-add-two-numbers)
   - [55.跳跃游戏](/leetcode/55-jump-game)
