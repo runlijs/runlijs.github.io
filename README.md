@@ -16,6 +16,7 @@
   - [674.最长连续递增序列](https://runlijs.github.io/#/leetcode/674-longest-continuous-increasing-subsequence)
   - [740.删除并获得点数](https://runlijs.github.io/#/leetcode/740-delete-and-earn)
   - [746.使用最小花费爬楼梯](https://runlijs.github.io/#/leetcode/746-min-cost-climbing-stairs)
+  - [1137.第N个泰波那契数](https://runlijs.github.io/#/leetcode/1137-n-th-tribonacci-number)
   - [1567.乘积为正数的最长子数组长度](https://runlijs.github.io/#/leetcode/1567-maximum-length-of-subarray-with-positive-produc)
 - **javascript**
   - [数据类型判断与类型转换](https://runlijs.github.io/#/javascript/javascript-typeof)

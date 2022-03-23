@@ -22,11 +22,11 @@ dp[i]=dp[i−1]+dp[i−2]
 - 最后给出爬楼梯代码如下
 ```js
 var climbStairs = function(n) {
-    let dp=[1,1]
-    for(let i=2;i<=n;i++){
-      dp[i] = dp[i-2] + dp[i-1]
-    }
-    return dp[n]
+  let dp=[1,1]
+  for(let i=2;i<=n;i++){
+    dp[i] = dp[i-2] + dp[i-1]
+  }
+  return dp[n]
 }
 ```
 - 时间复杂度:O(n)
@@ -36,11 +36,11 @@ var climbStairs = function(n) {
 
 ```js
 var climbStairs = function(n) {
-    let [a,b] = [1,1]
-    for(let i=2;i<=n;i++){
-      [a,b] = [b,a+b]
-    }
-    return b
+  let [a,b] = [1,1]
+  for(let i=2;i<=n;i++){
+    [a,b] = [b,a+b]
+  }
+  return b
 }
 ```
 - 时间复杂度:O(n)
