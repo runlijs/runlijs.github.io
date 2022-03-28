@@ -7,6 +7,7 @@
   - [Git 443 Operation timed out](/github/git-443-operation-timed-out)
 - **leetcode**
   - [2.两数相加](/leetcode/2-add-two-numbers)
+  - [45.跳跃游戏II](/leetcode/45-jump-game-ii)
   - [55.跳跃游戏](/leetcode/55-jump-game)
   - [70.爬楼梯](/leetcode/70-climbing-stairs)
   - [198.打家劫舍](/leetcode/198-house-robber)

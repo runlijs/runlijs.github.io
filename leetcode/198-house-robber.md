@@ -42,14 +42,16 @@ var rob = function(nums) {
 
 ```js
 var rob = function(nums) {
-    let first = nums[0] // 表示第一间房，也就是dp[i-2]
-    let sec = Math.max(nums[0],nums[1]) // 表示第二间房，也就是dp[i-1]，也就是相邻的房间
-    for(let i=2;i<nums.length;i++){
-      let tem = sec
-      sec = Math.max(first+nums[i],sec)
-      first = sec
-    }
-    return sec
+  if(nums.length==1) return nums[0]
+  if(nums.length==2) return Math.max(nums[0],nums[1])
+  let f = nums[0]   // 表示第一间房，也就是dp[i-2] 
+  let s = Math.max(nums[0],nums[1])  // 表示第二间房，也就是dp[i-1]，也就是相邻的房间
+  for(let i=2;i<nums.length;i++){
+    let tem = s
+    s = Math.max(s,nums[i]+f)  
+    f = tem
+  }
+  return s
 }
 ```
 - 时间复杂度:O(n)

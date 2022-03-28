@@ -7,6 +7,7 @@
   - [Git 443 Operation timed out](https://runlijs.github.io/#/github/git-443-operation-timed-out)
 - **leetcode**
   - [2.两数相加](https://runlijs.github.io/#/leetcode/2-add-two-numbers)
+  - [45.跳跃游戏II](https://runlijs.github.io/#/leetcode/45-jump-game-ii)
   - [55.跳跃游戏](https://runlijs.github.io/#/leetcode/55-jump-game)
   - [70.爬楼梯](https://runlijs.github.io/#/leetcode/70-climbing-stairs)
   - [198.打家劫舍](https://runlijs.github.io/#/leetcode/198-house-robber)
